@@ -1,0 +1,23 @@
+﻿<Window x:Class="PepperlFuchs.IE.TE.WinconfigIni.Gui.Windows.Db.WinAts"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PepperlFuchs.IE.TE.WinconfigIni.Gui.Windows.Db"
+        mc:Ignorable="d"
+        Title="WinAts" Height="450" Width="800"
+        Loaded="Window_Loaded">
+    <DockPanel>
+        <TabControl>
+            <TabItem Header="Sections Names">
+                <DockPanel>
+                    <ListBox x:Name="SectionNamesList"/>
+                </DockPanel>
+            </TabItem>
+            <TabItem Header="Parameter Names">
+                <ListBox x:Name="ParameterNamesList"/>
+            </TabItem>
+        </TabControl>
+        
+    </DockPanel>
+</Window>
